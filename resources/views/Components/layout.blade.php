@@ -58,13 +58,13 @@
     {{ $slot }}
   </div>
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-  <p class="col-md-4 mb-0 text-muted">© Casual Group. 2021</p>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+  <p class="col-md-4 mb-0 text-white">© Casual Group. 2021</p>
 
 
   <ul class="nav col-md-4 justify-content-end">
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Instagram</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Email</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Instagram</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Email</a></li>
   </ul>
 </footer>
 </body>
