@@ -19,6 +19,10 @@ Route::get('/', function () {
   return view('landing.index');
 });
 
+Route::get('/projetos', function () {
+  return view('landing.projetos');
+});
+
 //Route::resource('/series', SeriesController::class)
 //  ->except(['show']);
 //
