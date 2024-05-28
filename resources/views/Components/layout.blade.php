@@ -12,14 +12,14 @@
 <header>
   <div class="px-3 py-2 text-bg-dark border-bottom">
     <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center">
         <a href="/" class="navbar-brand d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           Casual Group
         </a>
 
-        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+        <ul class="nav col-12 col-lg-auto justify-content-center my-md-0 text-small">
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('/') }}" class="nav-link text-white">
               Home
             </a>
           </li>
@@ -29,7 +29,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('projetos') }}" class="nav-link text-white">
               Nossos Projetos
             </a>
           </li>
@@ -58,7 +58,7 @@
     {{ $slot }}
   </div>
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark">
   <p class="col-md-4 mb-0 text-white">© Casual Group. 2021</p>
 
 
