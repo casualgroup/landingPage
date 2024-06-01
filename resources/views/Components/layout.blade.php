@@ -39,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('contato') }}" class="nav-link text-white">
               Contato
             </a>
           </li>
