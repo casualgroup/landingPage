@@ -16,22 +16,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-  return view('landing.faq');
+  return view('landing.index');
 });
 
 Route::get('/projetos', function () {
   return view('landing.projetos');
 });
 
-//Route::resource('/series', SeriesController::class)
-//  ->except(['show']);
-//
-//Route::get('/series/{series}/seasons', [SeasonsController::class, 'index'])
-//  ->name('seasons.index');
+Route::get('/faq', function () {
+  return view('landing.faq');
+});
 
-//Route::controller(SeriesController::class)->group(function () {
-//  Route::get('/series', 'index');
-//  Route::get('/series/criar', 'create');
-//  Route::post('/series/salvar', 'store');
-//  Route::delete('/series/destroy/{id}', 'destroy')->name('series.destroy');
-//});
+Route::get('/contato', function () {
+  return view('landing.contato');
+});
+
+

@@ -79,3 +79,4 @@
 <div style="color: white; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 20px; word-wrap: break-word">ENVIAR MENSAGEM</div>
 <div style="width: 366px; opacity: 0.50; color: black; font-size: 13px; font-family: Manrope; font-weight: 500; word-wrap: break-word">*Ao enviar uma mensagem, você concorda com termos e condições impostas pela plataforma de mensagem utilizada</div>
 <div style="width: 383px; height: 0px; transform: rotate(-90.15deg); transform-origin: 0 0; border: 1px black solid"></div>
+</x-layout>
