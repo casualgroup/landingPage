@@ -7,7 +7,7 @@
   </div>
   @isset($redirect)
   <div class="col-12">
-    <div class="container justify-content-end">
+    <div class="container text-center">
     <a href="{{ $redirect }}" target="_blank" class="btn btn-dark">Saiba Mais</a>
     </div>
   </div>

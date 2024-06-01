@@ -39,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('teste') }}" class="nav-link text-white">
               Contato
             </a>
           </li>
@@ -58,7 +58,7 @@
     {{ $slot }}
   </div>
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark">
+<footer class="footer d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark align-bottom">
   <p class="col-md-4 mb-0 text-white">© Casual Group. 2021</p>
 
 
