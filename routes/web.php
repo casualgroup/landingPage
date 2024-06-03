@@ -31,4 +31,10 @@ Route::get('/contato', function () {
   return view('landing.contato');
 });
 
+Route::get('/tecnologias', function() {
+  return view('landing.tecnologias');
+});
 
+Route::get('/equipe', function() {
+  return view('landing.equipe');
+});
