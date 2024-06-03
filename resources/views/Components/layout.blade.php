@@ -24,7 +24,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('tecnologias') }}" class="nav-link text-white">
               Tecnologias que usamos
             </a>
           </li>
@@ -34,17 +34,17 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('equipe') }}" class="nav-link text-white">
               Nossa Equipe
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('contato') }}" class="nav-link text-white">
               Contato
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{ url('faq') }}" class="nav-link text-white">
               FAQ
             </a>
           </li>
