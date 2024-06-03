@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('sobreNos', function () {
+  return view('landing.sobreNos');
+=======
 Route::get('/', function () {
   return view('landing.tecnologias');
 });
@@ -22,6 +26,7 @@ Route::get('/', function () {
 Route::get('/projetos', function () {
   return view('landing.projetos');
 });
+
 
 //Route::resource('/series', SeriesController::class)
 //  ->except(['show']);
