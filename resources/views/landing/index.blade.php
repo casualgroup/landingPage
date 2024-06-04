@@ -1,12 +1,12 @@
 <x-layout title="home">
-  <div class="container-xxl">
+  <div class="container-xxl py-3 my-4 border-top border-bottom">
   <h1 class="fw-bold text-center text-uppercase p-5">Casual Group</h1>
     <div class="col">
       <div class="container-md text-center">
         <img src="{{ asset('img/CasualGroupLogo.jpg') }}" alt="Logo da CASUAL GROUP" class="img-fluid p-2" width="65%">
       </div>
     <p class="text-center fw-normal p-2">Nós da Casual Group estamos aqui para entregar uma ferramenta que vá suprir sua necessidade.</p>
-      <div class="container text-center p-3">
+      <div class="container text-center p-3 my-5 border-bottom-0">
     <a href="{{ url('contato') }}" class="btn btn-dark p-2">Faça seu orçamento!</a>
       </div>
     </div>

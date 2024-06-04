@@ -1,5 +1,5 @@
 <x-layout title="Nossos Projetos">
-  <div class="container">
+  <div class="container py-3 my-4 border-top-0 border-bottom-0">
     <h1 class="p-4 fw-bold text-center">Projetos Lançados</h1>
 
     <div class="p-4 col align-content-center">
@@ -34,12 +34,12 @@
   <div class="container">
     <h1 class="text-center p-4 fw-bold">Projetos em Desenvolvimento</h1>
 
-    <div class="p-4 col align-content-center">
+    <div class="p-4 col align-content-center py-3 my-5 border-bottom">
       <div class="row container justify-content-evenly">
         <div class="col-3">
           <img src="{{ asset('img/ControleTotalLogo.png') }}" alt="Logo do Controle Total" class="img-fluid p-2">
         </div>
-        <div class="col-6">
+        <div class="col-6 py-3 my-5 border-bottom-0">
           <x-projectLayout titulo="Controle Total"
                            description="Controle total é o nosso produto mais recente e ainda está em desenvolvimento. Ele é planejado auxilio para clinicas de saúde e no gerenciamento de consultas e estoque. Este aplicativo vem modulado para com que você possa escolher so as funcionalidades e possui um sistema de lembrete para lembrar clientes de suas consultas."
           ></x-projectLayout>

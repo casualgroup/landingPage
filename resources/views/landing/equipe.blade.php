@@ -5,7 +5,7 @@
       <h1 class="p-5">Nossa Equipe</h1>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid py-3 my-5 border-bottom-0">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-6 col-lg-4" style="margin-bottom: 1rem;">
         <div class="card">

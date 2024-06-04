@@ -1,6 +1,6 @@
 <x-layout title="faq">
-  <div class="container">
-    <h1 class="p-4 fw-bold text-center">FAQ</h1>    
+  <div class="container py-3 my-5 border-top-0 border-bottom-0">
+    <h1 class="p-4 fw-bold text-center my-5 border-top-0">FAQ</h1>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -27,13 +27,13 @@
         </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body">Dentro do leque de projetos da Casual Group temos: LII Weather, 
-          um aplicativo de previsão do tempo para dispositivos moveis, SpaceP, um aplicativo que 
-          mostra imagens tiradas pela nasa por data, E uma ferrmaneta que ainda está em desenvolvimento 
+        <div class="panel-body">Dentro do leque de projetos da Casual Group temos: LII Weather,
+          um aplicativo de previsão do tempo para dispositivos moveis, SpaceP, um aplicativo que
+          mostra imagens tiradas pela nasa por data, E uma ferrmaneta que ainda está em desenvolvimento
           chamada Controle Total, um sistema de gestão para consultorios.</div>
       </div>
-  </div> 
-</div>   
+  </div>
+</div>
 <p class = "text-center">
   Todos direitos reservados a Casual Group ©️
 </p>
