@@ -4,8 +4,8 @@
 
     <div class="p-4 col align-content-center">
       <div class="row container justify-content-evenly">
-        <div class="col-6">
-          <a href="#" class="btn">Teste</a>
+        <div class="col-3">
+          <img src="{{ asset('img/LilW_Logo.png') }}" alt="Logo do Lil Weather" class="img-fluid p-2">
         </div>
         <div class="col-6">
           <x-projectLayout titulo="LiL Weather"
@@ -24,8 +24,8 @@
                            redirect="https://github.com/kazmath/spacep_mobile"
           ></x-projectLayout>
         </div>
-        <div class="col-6">
-          <a href="#" class="btn text-center">Teste</a>
+        <div class="col-3">
+          <img src="{{ asset('img/SpaceP.png') }}" alt="Logo do SpaceP" class="img-fluid p-2">
         </div>
       </div>
     </div>
@@ -36,8 +36,8 @@
 
     <div class="p-4 col align-content-center">
       <div class="row container justify-content-evenly">
-        <div class="col-6">
-          <a href="#" class="btn">Teste</a>
+        <div class="col-3">
+          <img src="{{ asset('img/ControleTotalLogo.png') }}" alt="Logo do Controle Total" class="img-fluid p-2">
         </div>
         <div class="col-6">
           <x-projectLayout titulo="Controle Total"

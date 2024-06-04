@@ -38,3 +38,4 @@ Route::get('/tecnologias', function() {
 Route::get('/equipe', function() {
   return view('landing.equipe');
 });
+
