@@ -23,19 +23,19 @@ Route::get('/projetos', function () {
   return view('landing.projetos');
 });
 
-Route::get('/teste', function (){
-  return view('landing.teste');
+Route::get('/faq', function () {
+  return view('landing.faq');
 });
 
-//Route::resource('/series', SeriesController::class)
-//  ->except(['show']);
-//
-//Route::get('/series/{series}/seasons', [SeasonsController::class, 'index'])
-//  ->name('seasons.index');
+Route::get('/contato', function () {
+  return view('landing.contato');
+});
 
-//Route::controller(SeriesController::class)->group(function () {
-//  Route::get('/series', 'index');
-//  Route::get('/series/criar', 'create');
-//  Route::post('/series/salvar', 'store');
-//  Route::delete('/series/destroy/{id}', 'destroy')->name('series.destroy');
-//});
+Route::get('/tecnologias', function() {
+  return view('landing.tecnologias');
+});
+
+Route::get('/equipe', function() {
+  return view('landing.equipe');
+});
+
