@@ -61,11 +61,9 @@
 </main>
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark fixed-bottom">
   <p class="col-md-4 mb-0 text-white">© Casual Group. 2021</p>
-
-
   <ul class="nav col-md-4 justify-content-end">
     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Instagram</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Email</a></li>
+    <li class="nav-item"><a href="mailto:contatocasualgroup@gmail.com" class="nav-link px-2 text-white">Email</a></li>
   </ul>
 </footer>
 </body>
