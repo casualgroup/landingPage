@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-  <div class="px-3 py-2 text-bg-dark border-bottom fixed-top">
+  <div class="px-3 py-2 text-bg-dark border-bottom sticky-top">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center">
         <a href="/" class="navbar-brand d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
@@ -58,8 +58,8 @@
     {{ $slot }}
   </div>
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark fixed-bottom">
-  <p class="col-md-4 mb-0 text-white">Â© Casual Group. 2021</p>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark sticky-bottom">
+  <p class="col-md-4 mb-0 text-white">© Casual Group. 2021</p>
 
 
   <ul class="nav col-md-4 justify-content-end">
